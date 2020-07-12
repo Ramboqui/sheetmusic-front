@@ -1,0 +1,8 @@
+{
+	"editor.insertSpaces": false,
+	"editor.renderIndentGuides": false,
+	"editor.highlightActiveIndentGuide": false,
+	"editor.detectIndentation": false,
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true
+}
