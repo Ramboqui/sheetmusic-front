@@ -1,0 +1,32 @@
+.header {
+	background-color: #f5eddc;
+	box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.2), 0 0 10px 0 rgba(150, 150, 150, 0.2), 0 0 10px 0 rgba(150, 150, 150, 0.2), 0 0 10px 0 rgba(150, 150, 150, 0.2);
+}
+
+.logo-img {
+	margin-top: -3vh;
+	margin-bottom: -3vh;
+	height: 12vh;
+}
+
+.nav-option .ui-button {
+	background-color: transparent;
+	border-color: transparent;
+	color: black;
+}
+
+.nav-option .ui-button:enabled:hover {
+	background-color: #fae6ba;
+	color: #212121;
+	border-color: #116fbf00;
+}
+
+.nav-option .ui-button:enabled:active {
+	background-color: #fae6ba;
+	color: #212121;
+	border-color: #116fbf00;
+}
+
+.nav-option .ui-button:enabled:focus {
+	box-shadow: 0 0 0 0.2em #1010101f;
+}

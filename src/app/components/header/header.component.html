@@ -1,0 +1,13 @@
+<div class="p-grid header">
+	<div class="p-col-2 logo">
+		<a href="/home">
+			<img class="logo-img" src="/assets/image/logo.svg" alt="">
+		</a>
+	</div>
+	<div class="p-col-8 nav">
+		<div class="nav-options p-col" *ngFor="let opt of options">
+			<p-button class="nav-option" [label]="opt.label" [routerLink]="opt.href"></p-button>
+		</div>
+	</div>
+	<div class="p-col-2 profile"></div>
+</div>

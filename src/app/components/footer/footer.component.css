@@ -1,0 +1,16 @@
+.footer {
+	background-color: rgb(255, 203, 126);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 8vh;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.information {
+	text-align: center;
+	align-self: center;
+	justify-content: center;
+}

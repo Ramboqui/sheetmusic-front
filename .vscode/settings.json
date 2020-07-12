@@ -4,5 +4,6 @@
 	"editor.highlightActiveIndentGuide": false,
 	"editor.detectIndentation": false,
 	"html.format.indentHandlebars": true,
-	"html.format.indentInnerHtml": true
+	"html.format.indentInnerHtml": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib"
 }
