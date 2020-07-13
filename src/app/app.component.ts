@@ -7,12 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-	options = [
-		{
-			label: 'Salvar',
-			href: '/save'
-		}
-	];
-
 	constructor() {}
 }
