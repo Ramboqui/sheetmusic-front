@@ -1,26 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
+import { EmptyPageComponent } from './components/empty-page/empty-page.component';
+import { ScoreManagerComponent } from './components/score-manager/score-manager.component';
 
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: 'home',
-		pathMatch: 'full'
+		component: EmptyPageComponent
 	},
 	{
-		path: 'home',
-		component: HomeComponent
-	},
-	{
-		path: 'login',
-		component: LoginComponent
+		path: 'gerenciar-partituras',
+		component: ScoreManagerComponent
 	}
 ];
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes, { useHash: true })],
+	imports: [RouterModule.forRoot(routes)],
 	exports: [RouterModule]
 })
 

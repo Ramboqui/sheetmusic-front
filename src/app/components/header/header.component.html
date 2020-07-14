@@ -1,13 +1,19 @@
-<div class="p-grid header">
-	<div class="p-col-2 logo">
-		<a href="/home">
-			<img class="logo-img" src="/assets/image/logo.svg" alt="">
-		</a>
+<div class="p-grid header p-align-center">
+	<div class="header-logo p-offset-3">
+		<span class="logo-title">
+			OCAMusic
+		</span>
+		<span class="logo-description">
+			Gerenciador de partituras
+		</span>
 	</div>
-	<div class="p-col-8 nav">
-		<div class="nav-options p-col" *ngFor="let opt of options">
-			<p-button class="nav-option" [label]="opt.label" [routerLink]="opt.href"></p-button>
+	<div class="navbar">
+		<div class="nav-options p-col p-align-center" *ngFor="let opt of options">
+			<div class="nav-button" (click)="setRoute(opt.href)">
+				<span class="nav-button-label">
+					{{opt.label}}
+				</span>
+			</div>
 		</div>
 	</div>
-	<div class="p-col-2 profile"></div>
 </div>

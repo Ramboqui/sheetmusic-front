@@ -1,5 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-	font-family: logo;
-	src: url(assets/fonts/digital-logo/Digitalt-nGZM.otf) format("opentype");
+	font-family: Digital;
+	src        : url(assets/fonts/digital-logo/Digitalt-nGZM.otf) format("opentype");
+}
+
+@font-face {
+	font-family: VeganStyle;
+	src        : url(assets/fonts/digital-logo/VeganStylePersonalUse-5Y58.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: LemonJelly;
+	src        : url(assets/fonts/digital-logo/LemonJellyPersonalUse-dEqR.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: SourceSansPro-Black;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-Black.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-BlackItalic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-BlackItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-Bold;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-BoldItalic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-ExtraLight;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-ExtraLightItalic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-ExtraLightItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-Italic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-Italic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-Light;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-LightItalic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-Regular;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-SemiBold;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: SourceSansPro-SemiBoldItalic;
+	src        : url(assets/fonts/SourceSans/SourceSansPro-SemiBoldItalic.ttf) format('truetype');
 }

@@ -1,36 +1,89 @@
+:root {
+	--header-height: 100vh;
+	--header-width : 100vw;
+}
+
 .header {
-	background-color: #f5eddc;
-	box-shadow      :
-		0 0 10px 0 rgba(150, 150, 150, 0.2),
-		0 0 10px 0 rgba(150, 150, 150, 0.2),
-		0 0 10px 0 rgba(150, 150, 150, 0.2),
-		0 0 10px 0 rgba(150, 150, 150, 0.2);
+	background-image: url('/assets/image/music-score-sheet-vintage.jpg');
+	width           : var(--header-width);
+	height          : var(--header-height);
 }
 
-.logo-img {
-	margin-top   : -3vh;
-	margin-bottom: -3vh;
-	height       : 12vh;
+.header-logo {
+	display: grid;
 }
 
-.nav-option .ui-button {
-	background-color: transparent;
-	border-color    : transparent;
-	color           : black;
+.logo-title {
+	font-family  : VeganStyle;
+	font-size    : 7vw;
+	word-break   : break-all;
+	color        : white;
+	text-shadow  : 5px 5px 0 #343434;
+	border-bottom: black;
 }
 
-.nav-option .ui-button:enabled:hover {
-	background-color: #fae6ba;
-	color           : #212121;
-	border-color    : #116fbf00;
+.logo-description {
+	margin-top          : -0.5em;
+	font-family         : LemonJelly;
+	font-size           : 3.5vw;
+	color               : #3f4100;
+	-webkit-text-stroke : 0.3px black;
+	text-decoration-line: underline;
 }
 
-.nav-option .ui-button:enabled:active {
-	background-color: #fae6ba;
-	color           : #212121;
-	border-color    : #116fbf00;
+.navbar {
+	background-color: rgba(245, 245, 245, 0.432);
+	width           : 50%;
+	height          : 7vh;
+	margin-top      : -40vh;
+	margin-left     : 25%;
+	margin-right    : 25%;
 }
 
-.nav-option .ui-button:enabled:focus {
-	box-shadow: 0 0 0 0.2em #1010101f;
+.nav-options {
+	height      : 100%;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+.nav-button {
+	height    : 100%;
+	width     : fit-content;
+	transition: all .2s ease;
+	position  : relative;
+}
+
+.nav-button:before {
+	cursor       : pointer;
+	content      : "";
+	position     : absolute;
+	top          : 0;
+	left         : 0;
+	display      : block;
+	border-radius: 16px;
+	background   : #fff03985;
+	width        : 32px;
+	height       : 32px;
+	transition   : all .3s ease;
+}
+
+.nav-button:hover:before {
+	cursor    : pointer;
+	width     : 100%;
+	background: #fff03985;
+}
+
+.nav-button:active {
+	cursor   : pointer;
+	transform: scale(0.96);
+}
+
+.nav-button-label {
+	cursor        : pointer;
+	vertical-align: -webkit-baseline-middle;
+	font-family   : SourceSansPro-Regular;
+	padding-left  : 1em;
+	padding-right : 5px;
+	position      : relative;
+
 }
